@@ -213,8 +213,9 @@
     </footer>
 
     <!-- Scroll Top -->
-    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>
 
     <!-- Preloader -->
     <div id="preloader"></div>
@@ -229,6 +230,7 @@
 
     <!-- Main JS File -->
     <script src="{{ asset('assets/logis') }}/assets/js/main.js"></script>
+    @stack('js')
 
 </body>
 
