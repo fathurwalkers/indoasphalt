@@ -19,31 +19,32 @@
                 <h4>Useful Links</h4>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Products</a></li>
                     <li><a href="#">Services</a></li>
-                    <li><a href="#">Terms of service</a></li>
-                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Business</a></li>
                 </ul>
             </div>
 
             <div class="col-lg-2 col-6 footer-links">
                 <h4>Our Services</h4>
                 <ul>
-                    <li><a href="#">Web Design</a></li>
-                    <li><a href="#">Web Development</a></li>
-                    <li><a href="#">Product Management</a></li>
-                    <li><a href="#">Marketing</a></li>
-                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#">Aspal Murni</a></li>
+                    <li><a href="#">Packing Aspal</a></li>
+                    <li><a href="#">Aspal Industri</a></li>
+                    <li><a href="#">Olahan hasil Aspal</a></li>
                 </ul>
             </div>
 
             <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                 <h4>Contact Us</h4>
-                <p>A108 Adam Street</p>
-                <p>New York, NY 535022</p>
-                <p>United States</p>
-                <p class="mt-2"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                <p><strong>Email:</strong> <span>info@example.com</span></p>
+                <p>
+                    <b>Head Office :</b>
+                </p>
+                <p>Soho Capital Lt.39 Unit 06, Jl.Let.Jend S.Parman KV 28</p>
+                <p>Grogol Petamburan, Jakarta Barat</p>
+                <p class="mt-2"><strong>Phone:</strong> <span>021-30003615</span></p>
+                <p><strong>Email:</strong> <span>kpa@indoasphalt.com</span></p>
             </div>
 
         </div>
