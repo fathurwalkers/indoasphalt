@@ -14,11 +14,15 @@
     <div class="container">
         <div class="row gy-2 d-flex justify-content-between">
             <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                <h2 data-aos="fade-up">Processed Buton Asphalt with its Extraction which is known to be the Purest</h2>
-                <p data-aos="fade-up" data-aos-delay="100">Facere distinctio molestiae nisi fugit tenetur
-                    repellat non praesentium nesciunt optio quis sit odio nemo quisquam. eius quos reiciendis
-                    eum vel eum voluptatem eum maiores eaque id optio ullam occaecati odio est possimus vel
-                    reprehenderit</p>
+                <h2 data-aos="fade-up">
+                    Processed Buton Asphalt with its Extraction which is known to be the Purest
+                </h2>
+                <p data-aos="fade-up" data-aos-delay="100">
+                    Asphalt Buton is a natural asphalt that has been found on the island of Buton, Southeast Sulawesi since
+                    1924. Asphalt Buton has been used in Indonesia with various technologies, with varying degrees of
+                    success. Asphalt Buton, or commonly called Asbuton, is different from the oil asphalt that has been
+                    known.
+                </p>
 
                 {{-- <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up"
                     data-aos-delay="200">
@@ -131,43 +135,28 @@
 
             <div class="col-lg-6 position-relative align-self-start order-lg-last order-first" data-aos="fade-up"
                 data-aos-delay="200">
-                <img src="{{ asset('assets/logis') }}/assets/img/about.jpg" class="img-fluid" alt="">
-                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+                <img src="{{ asset('assets/img') }}/about.jpeg" class="img-fluid" alt="">
+                {{-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a> --}}
             </div>
 
             <div class="col-lg-6 content order-last  order-lg-first" data-aos="fade-up" data-aos-delay="100">
-                <h3>About Us</h3>
+                <h3>About Indoasphalt</h3>
                 <p>
-                    Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas
-                    deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam
-                    ut eius incidunt reiciendis veritatis asperiores placeat.
+                    Located in the heart of Indonesia's natural asphalt resources, Indoasphalt operates in Suandala Village,
+                    Lasalimu, Buton Regency, Southeast Sulawesi. We are proud to be part of this resource-rich region,
+                    processing the best raw asphalt from nature into high-quality liquid asphalt ready for use in various
+                    infrastructure projects.
                 </p>
-                <ul>
-                    <li>
-                        <i class="bi bi-diagram-3"></i>
-                        <div>
-                            <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                            <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <i class="bi bi-fullscreen-exit"></i>
-                        <div>
-                            <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                            <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna
-                                pasata redi</p>
-                        </div>
-                    </li>
-                    <li>
-                        <i class="bi bi-broadcast"></i>
-                        <div>
-                            <h5>Voluptatem et qui exercitationem</h5>
-                            <p>Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt maxime
-                                veniam</p>
-                        </div>
-                    </li>
-                </ul>
+                <p>
+                    The strategic location in Buton, the center of natural asphalt production in Indonesia, allows
+                    Indoasphalt to provide a stable and quality supply. We are dedicated to supporting the construction of
+                    highways and other infrastructure projects, both at the local and national levels, while maintaining our
+                    commitment to international standards.
+                </p>
+                <p>
+                    With a strong determination to drive Indonesia forward, Indoasphalt is ready to contribute to building a
+                    better future through strong and sustainable infrastructure.
+                </p>
             </div>
 
         </div>
@@ -193,8 +182,11 @@
                         <img src="{{ asset('assets/logis') }}/assets/img/service-1.jpg" alt="" class="img-fluid">
                     </div>
                     <h3>Storage</h3>
-                    <p>Cumque eos in qui numquam. Aut aspernatur perferendis sed atque quia voluptas quisquam
-                        repellendus temporibus itaqueofficiis odit</p>
+                    <p>
+                        Indoasphalt provides asphalt products that are designed to be easily stored for long periods of time
+                        without reducing their quality. With proper storage procedures, our asphalt is always ready to use
+                        whenever needed.
+                    </p>
                 </div>
             </div><!-- End Card Item -->
 
@@ -204,8 +196,11 @@
                         <img src="{{ asset('assets/logis') }}/assets/img/service-2.jpg" alt="" class="img-fluid">
                     </div>
                     <h3><a href="#" class="stretched-link">Logistics</a></h3>
-                    <p>Asperiores provident dolor accusamus pariatur dolore nam id audantium ut et iure incidunt
-                        molestiae dolor ipsam ducimus occaecati nisi</p>
+                    <p>
+                        Indoasphalt ensures that every shipment of liquid asphalt and sack asphalt runs smoothly and on
+                        time. With reliable logistics support, we are ready to send our products to various regions and
+                        abroad.
+                    </p>
                 </div>
             </div><!-- End Card Item -->
 
@@ -215,8 +210,10 @@
                         <img src="{{ asset('assets/logis') }}/assets/img/service-3.jpg" alt="" class="img-fluid">
                     </div>
                     <h3><a href="#" class="stretched-link">Cargo</a></h3>
-                    <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit
-                        doloremque oluptatem aut et molestiae ut et nihil</p>
+                    <p>
+                        Regardless of your project location, we ensure that every shipment is on time and in the best
+                        condition, supporting the smooth running of infrastructure development wherever you are.
+                    </p>
                 </div>
             </div><!-- End Card Item -->
 
@@ -226,8 +223,10 @@
                         <img src="{{ asset('assets/logis') }}/assets/img/service-4.jpg" alt="" class="img-fluid">
                     </div>
                     <h3><a href="#" class="stretched-link">Trucking</a></h3>
-                    <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit
-                        doloremque oluptatem aut et molestiae ut et nihil</p>
+                    <p>
+                        Ensuring that our asphalt distribution runs smoothly through reliable trucking services. With a
+                        ready fleet, we deliver liquid asphalt and sack asphalt quickly and safely.
+                    </p>
                 </div>
             </div><!-- End Card Item -->
 
@@ -237,8 +236,11 @@
                         <img src="{{ asset('assets/logis') }}/assets/img/service-5.jpg" alt="" class="img-fluid">
                     </div>
                     <h3>Packaging</h3>
-                    <p>Illo consequuntur quisquam delectus praesentium modi dignissimos facere vel cum
-                        onsequuntur maiores beatae consequatur magni voluptates</p>
+                    <p>
+                        Our asphalt is packed in quality sacks coated with heat-resistant plastic. This technology allows
+                        the packaging to be destroyed automatically when exposed to temperatures above 100'C, facilitating
+                        the application process in the field without the hassle of opening the packaging manually.
+                    </p>
                 </div>
             </div><!-- End Card Item -->
 
@@ -248,8 +250,10 @@
                         <img src="{{ asset('assets/logis') }}/assets/img/service-6.jpg" alt="" class="img-fluid">
                     </div>
                     <h3><a href="#" class="stretched-link">Warehousing</a></h3>
-                    <p>Quas assumenda non occaecati molestiae. In aut earum sed natus eatae in vero. Ab modi
-                        quisquam aut nostrum unde et qui est non quo nulla</p>
+                    <p>
+                        Indoasphalt has warehouses in Balikpapan, Semarang and Buton as the main centers. These strategic
+                        locations allow us to store and distribute asphalt quickly and efficiently.
+                    </p>
                 </div>
             </div><!-- End Card Item -->
 
@@ -263,28 +267,48 @@
     <div class="container section-title" data-aos="fade-up">
         <span>Features</span>
         <h2>Features</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>
+            Indoasphalt asphalt is designed to support the development of solid and sustainable infrastructure, with
+            features
+            that ensure maximum fatigue.
+        </p>
     </div><!-- End Section Title -->
 
     <div class="container">
 
         <div class="row gy-4 align-items-center features-item">
             <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-                <img src="{{ asset('assets/logis') }}/assets/img/features-1.jpg" class="img-fluid" alt="">
+                <img src="{{ asset('assets/img') }}/features-1.jpeg" class="img-fluid" alt="">
             </div>
             <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                <h3>Durable and Environmentally Friendly Asphalt</h3>
                 <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore
-                    magna aliqua.
+                    With proven quality, our products offer optimal durability for your infrastructure.
                 </p>
                 <ul>
-                    <li><i class="bi bi-check"></i><span> Ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.</span></li>
-                    <li><i class="bi bi-check"></i> <span>Duis aute irure dolor in reprehenderit in voluptate
-                            velit.</span></li>
-                    <li><i class="bi bi-check"></i> <span>Ullam est qui quos consequatur eos accusamus.</span>
+                    <li><i class="bi bi-check"></i>
+                        <span>
+                            Durable: Indoasphalt asphalt is strong and durable, facing heavy loads and bad weather without
+                            being easily damaged.
+                        </span>
+                    </li>
+                    <li><i class="bi bi-check"></i>
+                        <span>
+                            Eco-Friendly: Our asphalt is environmentally friendly, with a production process that reduces
+                            pollution and impact on the environment.
+                        </span>
+                    </li>
+                    <li><i class="bi bi-check"></i>
+                        <span>
+                            Long-Lasting: With high durability, our asphalt lasts longer, reducing the need for repairs and
+                            replacements.
+                        </span>
+                    </li>
+                    <li><i class="bi bi-check"></i>
+                        <span>
+                            Easy Mixing: Indoasphalt asphalt is easy to mix and apply, making the work process faster and
+                            more efficient.
+                        </span>
                     </li>
                 </ul>
             </div>
@@ -292,40 +316,52 @@
 
         <div class="row gy-4 align-items-center features-item">
             <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                <img src="{{ asset('assets/logis') }}/assets/img/features-2.jpg" class="img-fluid" alt="">
+                <img src="{{ asset('assets/img') }}/features-2.jpg" class="img-fluid" alt="">
             </div>
             <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
-                <h3>Corporis temporibus maiores provident</h3>
+                <h3>Technology & Innovation</h3>
                 <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore
-                    magna aliqua.
+                    Indoasphalt uses environmentally friendly technology to minimize carbon emissions.
                 </p>
                 <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum
+                    In the asphalt processing process, ensuring that each product meets the highest standards. With the
+                    latest environmentally friendly innovations, we present high-quality asphalt that is more durable,
+                    efficient and supports sustainable development. With us, you get a modern and reliable asphalt solution.
                 </p>
             </div>
         </div><!-- Features Item -->
 
         <div class="row gy-4 align-items-center features-item">
             <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
-                <img src="{{ asset('assets/logis') }}/assets/img/features-3.jpg" class="img-fluid" alt="">
+                <img src="{{ asset('assets/img') }}/features-3.jpg" class="img-fluid" alt="">
             </div>
             <div class="col-md-7" data-aos="fade-up">
-                <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
-                <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe
-                    odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+                <h3>Easy Ordering Process</h3>
+                <p>
+                    Our ordering process is like a toll road: Fast, Easy and Hassle-free. From consultation to delivery, we
+                    ensure your journey to quality asphalt is hassle-free.
+                </p>
                 <ul>
-                    <li><i class="bi bi-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.</span></li>
-                    <li><i class="bi bi-check"></i><span> Duis aute irure dolor in reprehenderit in voluptate
-                            velit.</span></li>
-                    <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad
-                            fugiat</span>.</li>
+                    <li><i class="bi bi-check"></i>
+                        <span>
+                            Contact us for consultation and price quote.
+                        </span>
+                    </li>
+                    <li><i class="bi bi-check"></i>
+                        <span>
+                            Make an order contract agreement.
+                        </span>
+                    </li>
+                    <li><i class="bi bi-check"></i>
+                        <span>
+                            Processing and packing process according to your project needs.
+                        </span>
+                    </li>
+                    <li><i class="bi bi-check"></i>
+                        <span>
+                            On-time asphalt delivery to your project location.
+                        </span>
+                    </li>
                 </ul>
             </div>
         </div><!-- Features Item -->
@@ -335,22 +371,103 @@
                 <img src="{{ asset('assets/logis') }}/assets/img/features-4.jpg" class="img-fluid" alt="">
             </div>
             <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
-                <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
-                <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore
-                    magna aliqua.
-                </p>
+                <h3>Indoasphalt Asphalt, Present Wherever You Need It.</h3>
                 <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum
+                    We are ready to reach various regions, from city corners to other countries. With strong land and sea
+                    logistics support, Indoasphalt ensures quality asphalt reaches your project location, anytime and
+                    anywhere, quickly and safely. Trust your shipping needs to us, for optimal infrastructure results in
+                    every field.
                 </p>
             </div>
         </div>
         <!-- Features Item -->
+
+    </div>
+@endsection
+
+@section('faqs')
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <span>Frequently Asked Questions</span>
+        <h2>Frequently Asked Questions</h2>
+        <p>Need Help? Here are some frequently asked questions. If you are still confused, do not hesitate to contact us!
+        </p>
+    </div>
+    <!-- End Section Title -->
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-10">
+
+                <div class="faq-container">
+
+                    <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
+                        <i class="faq-icon bi bi-question-circle"></i>
+                        <h3>What are the main products offered by Indoasphalt?</h3>
+                        <div class="faq-content">
+                            <p>
+                                Indoasphalt offers high-quality liquid asphalt and sack asphalt used for various
+                                infrastructure projects, such as highways, toll roads, and others.
+                            </p>
+                        </div>
+                        <i class="faq-toggle bi bi-chevron-right"></i>
+                    </div><!-- End Faq item-->
+
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                        <i class="faq-icon bi bi-question-circle"></i>
+                        <h3>How to order Indoasphalt asphalt?</h3>
+                        <div class="faq-content">
+                            <p>
+                                You can contact our sales team through the contact available on the website. After
+                                consultation and agreement, we will arrange the delivery according to your needs.
+                            </p>
+                        </div>
+                        <i class="faq-toggle bi bi-chevron-right"></i>
+                    </div><!-- End Faq item-->
+
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                        <i class="faq-icon bi bi-question-circle"></i>
+                        <h3>Does Indoasphalt serve international shipping?</h3>
+                        <div class="faq-content">
+                            <p>
+                                Yes, we serve asphalt shipping throughout Indonesia and to other countries via land and sea.
+                            </p>
+                        </div>
+                        <i class="faq-toggle bi bi-chevron-right"></i>
+                    </div><!-- End Faq item-->
+
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                        <i class="faq-icon bi bi-question-circle"></i>
+                        <h3>How long does it take for asphalt to be delivered to my project location?</h3>
+                        <div class="faq-content">
+                            <p>
+                                Shipping time depends on the project location. For Indonesia, shipping usually takes 3-7
+                                working days. For international shipping, the time may vary depending on the destination
+                                country.
+                            </p>
+                        </div>
+                        <i class="faq-toggle bi bi-chevron-right"></i>
+                    </div><!-- End Faq item-->
+
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                        <i class="faq-icon bi bi-question-circle"></i>
+                        <h3>Is there a minimum asphalt order?</h3>
+                        <div class="faq-content">
+                            <p>
+                                Yes, we have a minimum order requirement that will be further informed by our sales team
+                                according to your project needs.
+                            </p>
+                        </div>
+                        <i class="faq-toggle bi bi-chevron-right"></i>
+                    </div><!-- End Faq item-->
+
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
 @endsection

@@ -3,10 +3,15 @@
         <div class="row gy-4">
             <div class="col-lg-5 col-md-12 footer-about">
                 <a href="index.html" class="logo d-flex align-items-center">
-                    <span class="sitename">INDOASPHALT</span>
+                    {{-- <span class="sitename">INDOASPHALT</span> --}}
+                    <img src="{{ asset('assets/img') }}/logo.png" alt="" class="sitename">
                 </a>
-                <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
-                    valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                <p>
+                    Indoasphalt is a trusted company engaged in the processing of raw natural asphalt into high-quality
+                    liquid asphalt. With modern packaging technology, efficient logistics services and a commitment to
+                    quality. Indoasphalt is determined to become a strategic partner in advancing Indonesia in the
+                    international arena.
+                </p>
                 <div class="social-links d-flex mt-4">
                     <a href=""><i class="bi bi-twitter-x"></i></a>
                     <a href=""><i class="bi bi-facebook"></i></a>
