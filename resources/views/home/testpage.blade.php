@@ -83,7 +83,7 @@
 @section('featured-services')
     <div class="container">
 
-        <div class="row gy-4">
+        <div class="row gy-2">
 
             <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
                 <div class="icon flex-shrink-0"><i class="fa-solid fa-cart-flatbed"></i></div>
@@ -115,7 +115,7 @@
                 <div class="icon flex-shrink-0"><i class="fa-solid fa-truck-ramp-box"></i></div>
                 <div>
                     <h4 class="title">Building Advanced Indonesia</h4>
-                    <p class="description">Together with INDOASPHALT, We are moving towards Better Infrastructure
+                    <p class="description">Together with us, We are moving towards Better Infrastructure
                         Development, bringing Indonesia to the International Stage
                     </p>
                     <a href="#" class="readmore stretched-link"><span>Learn More</span><i
@@ -131,25 +131,25 @@
 @section('about-section')
     <div class="container">
 
-        <div class="row gy-4">
+        <div class="row gy-2">
 
             <div class="col-lg-6 position-relative align-self-start order-lg-last order-first" data-aos="fade-up"
                 data-aos-delay="200">
-                <img src="{{ asset('assets/img') }}/kpa1.jpg" class="img-fluid" alt="">
+                <img src="{{ asset('assets/img') }}/tentang1.jpg" class="img-fluid" alt="">
                 {{-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a> --}}
             </div>
 
             <div class="col-lg-6 content order-last  order-lg-first" data-aos="fade-up" data-aos-delay="100">
-                <h3>About Indoasphalt</h3>
+                <h3>About Us</h3>
                 <p>
-                    Located in the heart of Indonesia's natural asphalt resources, Indoasphalt operates in Suandala Village,
+                    Located in the heart of Indonesia's natural asphalt resources, we operates in Suandala Village,
                     Lasalimu, Buton Regency, Southeast Sulawesi. We are proud to be part of this resource-rich region,
                     processing the best raw asphalt from nature into high-quality liquid asphalt ready for use in various
                     infrastructure projects.
                 </p>
                 <p>
                     The strategic location in Buton, the center of natural asphalt production in Indonesia, allows
-                    Indoasphalt to provide a stable and quality supply. We are dedicated to supporting the construction of
+                    us to provide a stable and quality supply. We are dedicated to supporting the construction of
                     highways and other infrastructure projects, both at the local and national levels, while maintaining our
                     commitment to international standards.
                 </p>
@@ -169,7 +169,7 @@
     <div class="container section-title" data-aos="fade-up">
         <span>Our Services<br></span>
         <h2>Our ServiceS</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        {{-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> --}}
     </div><!-- End Section Title -->
 
     <div class="container">
@@ -183,9 +183,9 @@
                     </div>
                     <h3>Storage</h3>
                     <p>
-                        Indoasphalt provides asphalt products that are designed to be easily stored for long periods of time
-                        without reducing their quality. With proper storage procedures, our asphalt is always ready to use
-                        whenever needed.
+                        Our services provides asphalt products that are designed to be easily stored for long periods of
+                        time without reducing their quality. With proper storage procedures, our asphalt is always ready to
+                        use whenever needed.
                     </p>
                 </div>
             </div><!-- End Card Item -->
@@ -197,7 +197,7 @@
                     </div>
                     <h3><a href="#" class="stretched-link">Logistics</a></h3>
                     <p>
-                        Indoasphalt ensures that every shipment of liquid asphalt and sack asphalt runs smoothly and on
+                        We always ensures that every shipment of liquid asphalt and sack asphalt runs smoothly and on
                         time. With reliable logistics support, we are ready to send our products to various regions and
                         abroad.
                     </p>
@@ -251,7 +251,7 @@
                     </div>
                     <h3><a href="#" class="stretched-link">Warehousing</a></h3>
                     <p>
-                        Indoasphalt has warehouses in Balikpapan, Semarang and Buton as the main centers. These strategic
+                        We also has warehouses in Balikpapan, Semarang and Buton as the main centers. These strategic
                         locations allow us to store and distribute asphalt quickly and efficiently.
                     </p>
                 </div>
@@ -268,9 +268,8 @@
         <span>Features</span>
         <h2>Features</h2>
         <p>
-            Indoasphalt asphalt is designed to support the development of solid and sustainable infrastructure, with
-            features
-            that ensure maximum fatigue.
+            Our products is designed to support the development of solid and sustainable infrastructure, with features that
+            ensure maximum fatigue.
         </p>
     </div><!-- End Section Title -->
 
@@ -288,7 +287,7 @@
                 <ul>
                     <li><i class="bi bi-check"></i>
                         <span>
-                            Durable: Indoasphalt asphalt is strong and durable, facing heavy loads and bad weather without
+                            Durable: Our products is strong and durable, facing heavy loads and bad weather without
                             being easily damaged.
                         </span>
                     </li>
@@ -306,7 +305,7 @@
                     </li>
                     <li><i class="bi bi-check"></i>
                         <span>
-                            Easy Mixing: Indoasphalt asphalt is easy to mix and apply, making the work process faster and
+                            Easy Mixing: Our asphalt pureness is easy to mix and apply, making the work process faster and
                             more efficient.
                         </span>
                     </li>
@@ -321,7 +320,7 @@
             <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
                 <h3>Technology & Innovation</h3>
                 <p class="fst-italic">
-                    Indoasphalt uses environmentally friendly technology to minimize carbon emissions.
+                    We also uses environmentally friendly technology to minimize carbon emissions.
                 </p>
                 <p>
                     In the asphalt processing process, ensuring that each product meets the highest standards. With the
@@ -371,10 +370,10 @@
                 <img src="{{ asset('assets/logis') }}/assets/img/features-4.jpg" class="img-fluid" alt="">
             </div>
             <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
-                <h3>Indoasphalt Asphalt, Present Wherever You Need It.</h3>
+                <h3>Our Fully-Extracted asphalt products is always in Present Wherever You Need It.</h3>
                 <p>
                     We are ready to reach various regions, from city corners to other countries. With strong land and sea
-                    logistics support, Indoasphalt ensures quality asphalt reaches your project location, anytime and
+                    logistics support, we ensures of our quality asphalt reaches your project location, anytime and
                     anywhere, quickly and safely. Trust your shipping needs to us, for optimal infrastructure results in
                     every field.
                 </p>
@@ -408,8 +407,8 @@
                         <h3>What are the main products offered by Indoasphalt?</h3>
                         <div class="faq-content">
                             <p>
-                                Indoasphalt offers high-quality liquid asphalt and sack asphalt used for various
-                                infrastructure projects, such as highways, toll roads, and others.
+                                Indoasphalt offers high-quality asphalt grades, including PG-70, PG-76, and PG-82. Each
+                                grade is designed to meet different performance needs based on climate and application.
                             </p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
@@ -420,8 +419,7 @@
                         <h3>How to order Indoasphalt asphalt?</h3>
                         <div class="faq-content">
                             <p>
-                                You can contact our sales team through the contact available on the website. After
-                                consultation and agreement, we will arrange the delivery according to your needs.
+                                You can contact our sales team through the contact available on the website.
                             </p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
@@ -432,7 +430,7 @@
                         <h3>Does Indoasphalt serve international shipping?</h3>
                         <div class="faq-content">
                             <p>
-                                Yes, we serve asphalt shipping throughout Indonesia and to other countries via land and sea.
+                                Yes, we serve asphalt shipping throughout Indonesia and to other countries.
                             </p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
@@ -443,21 +441,8 @@
                         <h3>How long does it take for asphalt to be delivered to my project location?</h3>
                         <div class="faq-content">
                             <p>
-                                Shipping time depends on the project location. For Indonesia, shipping usually takes 3-7
-                                working days. For international shipping, the time may vary depending on the destination
-                                country.
-                            </p>
-                        </div>
-                        <i class="faq-toggle bi bi-chevron-right"></i>
-                    </div><!-- End Faq item-->
-
-                    <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
-                        <i class="faq-icon bi bi-question-circle"></i>
-                        <h3>Is there a minimum asphalt order?</h3>
-                        <div class="faq-content">
-                            <p>
-                                Yes, we have a minimum order requirement that will be further informed by our sales team
-                                according to your project needs.
+                                Delivery times may vary based on the destination city or country. We strive to provide
+                                timely service and will work with you to ensure your asphalt arrives as quickly as possible.
                             </p>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>

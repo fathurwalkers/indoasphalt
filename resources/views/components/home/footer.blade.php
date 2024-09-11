@@ -9,25 +9,25 @@
                 <p>
                     Indoasphalt is a trusted company engaged in the processing of raw natural asphalt into high-quality
                     liquid asphalt. With modern packaging technology, efficient logistics services and a commitment to
-                    quality. Indoasphalt is determined to become a strategic partner in advancing Indonesia in the
+                    quality. We are determined to become a strategic partner in advancing Indonesia in the
                     international arena.
                 </p>
-                <div class="social-links d-flex mt-4">
+                {{-- <div class="social-links d-flex mt-4">
                     <a href=""><i class="bi bi-twitter-x"></i></a>
                     <a href=""><i class="bi bi-facebook"></i></a>
                     <a href=""><i class="bi bi-instagram"></i></a>
                     <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> --}}
             </div>
 
             <div class="col-lg-2 col-6 footer-links">
                 <h4>Useful Links</h4>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Business</a></li>
+                    <li><a href="#features">Featured</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#footer">Contacs</a></li>
                 </ul>
             </div>
 
