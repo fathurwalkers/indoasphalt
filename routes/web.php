@@ -6,4 +6,5 @@ use Illuminate\Support\Facades\Route;
 Route::group(['prefix' => '/'], function () {
     Route::get('/', [HomeController::class, 'index'])->name('home');
     Route::get('/testpage', [HomeController::class, 'testpage'])->name('testpage');
+    Route::get('/development', [HomeController::class, 'development'])->name('development');
 });

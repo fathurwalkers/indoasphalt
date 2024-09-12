@@ -141,7 +141,7 @@
 
             <div class="col-lg-6 content order-last  order-lg-first" data-aos="fade-up" data-aos-delay="100">
                 <h3>About Us</h3>
-                <p>
+                {{-- <p>
                     Located in the heart of Indonesia's natural asphalt resources, we operates in Suandala Village,
                     Lasalimu, Buton Regency, Southeast Sulawesi. We are proud to be part of this resource-rich region,
                     processing the best raw asphalt from nature into high-quality liquid asphalt ready for use in various
@@ -152,6 +152,20 @@
                     us to provide a stable and quality supply. We are dedicated to supporting the construction of
                     highways and other infrastructure projects, both at the local and national levels, while maintaining our
                     commitment to international standards.
+                </p>
+                <p>
+                    With a strong determination to drive Indonesia forward, Indoasphalt is ready to contribute to building a
+                    better future through strong and sustainable infrastructure.
+                </p> --}}
+                <p>
+                    INDOASPHALT is a Company that is the First and Only Company in the world that produces Pure Buton
+                    Asphalt (Fully-Extracted) and is a leading company engaged in the asphalt industry located in Lawele,
+                    Buton Regency, Southeast Sulawesi, Indonesia.
+                </p>
+                <p>
+                    We are dedicated to providing superior asphalt products and services. With a proven track record and
+                    forward-thinking approach while we ready to continue to grow then might be hope to succeed in the
+                    asphalt industry.
                 </p>
                 <p>
                     With a strong determination to drive Indonesia forward, Indoasphalt is ready to contribute to building a
