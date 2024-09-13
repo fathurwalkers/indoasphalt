@@ -7,11 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    {{-- <link href="{{ asset('assets/bootstrap4') }}/css/bootstrap.min.css" rel="stylesheet"> --}}
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <title>INDOASPHALT.com</title>
 
     <style>
+        html {
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+        }
+
         .nav-link,
         .navbar,
         .navbar-brand {
@@ -108,7 +112,20 @@
         }
 
         .navbar {
-            background-color: #f0f0f0 !important;
+            background-color: #ffffff !important;
+        }
+
+        .section {
+            padding: 40px;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+            background-color: #4888c7;
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            padding: 30px 0;
+            text-align: center;
         }
     </style>
 </head>
@@ -161,10 +178,46 @@
         </div>
     </header>
 
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <div class="row d-flex justify-content-center bgsection">
+                    <div class="col-lg-6 my-auto">
+                        <h2>INDOASPHALT</h2>
+                        <p class="text-justify">
+                            Founded by 2015, Indoasphalt is a Company that is the First and Only Company in the
+                            world
+                            that produces Pure Buton Asphalt (Fully-Extracted) and is a leading company engaged
+                            in
+                            the
+                            asphalt industry located in Lawele, Buton Regency, Southeast Sulawesi, Indonesia.
+                        </p>
+                        <p class="text-justify">
+                            We are dedicated to providing superior asphalt products and services. With a proven
+                            track
+                            record and forward-thinking approach while we ready to continue to grow then might
+                            be
+                            hope
+                            to succeed in the asphalt industry.
+                        </p>
+                        <p class="text-justify">
+                            With a strong determination to drive Indonesia forward, Indoasphalt is ready to
+                            contribute
+                            to building a better future through strong and sustainable infrastructure.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-end">
+                        <img src="{{ asset('assets/img') }}/tentang1.jpg" alt="About Us" class="img-fluid"
+                            width="450px">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    {{-- <script src="{{ asset('assets/bootstrap4') }}/js/bootstrap.min.js"></script> --}}
 </body>
 
 </html>
