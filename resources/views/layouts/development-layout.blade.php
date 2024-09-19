@@ -164,11 +164,11 @@
         .call-to-action h3 {
             font-size: 28px;
             font-weight: 700;
-            color: var(--default-color);
+            color: #fff;
         }
 
         .call-to-action p {
-            color: var(--default-color);
+            color: #fff;
         }
 
         .call-to-action .cta-btn {
@@ -255,7 +255,6 @@
         .footer .footer-about .logo {
             line-height: 1;
             margin-bottom: 30px;
-
         }
 
         .footer .footer-about .logo img {
