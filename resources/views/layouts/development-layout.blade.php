@@ -67,10 +67,79 @@
         }
 
         @media (max-width: 768px) {
-            .navbar-logo {
-                max-height: 40px;
-                /* Smaller logo on smaller screens */
+            .navbar-brand {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
             }
+
+            .navbar-toggler {
+                z-index: 1;
+                /* Supaya toggler tidak tertutup elemen lain */
+            }
+
+            .navbar-logo {
+                width: 120px;
+                /* Ukuran logo lebih kecil di mobile */
+            }
+        }
+
+        /* Menghilangkan background penuh dari toggler */
+        .navbar-toggler {
+            border: none;
+            /* Hilangkan border */
+            padding: 0.25rem 0.5rem;
+            /* Atur padding agar lebih rapih */
+        }
+
+        /* Custom untuk icon toggler menjadi hamburger style */
+        .navbar-toggler .navbar-toggler-icon {
+            display: inline-block;
+            width: 24px;
+            height: 2px;
+            background-color: black;
+            position: relative;
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Membuat tiga garis untuk hamburger */
+        .navbar-toggler .navbar-toggler-icon::before,
+        .navbar-toggler .navbar-toggler-icon::after {
+            content: '';
+            width: 24px;
+            height: 2px;
+            background-color: black;
+            position: absolute;
+            left: 0;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .navbar-toggler .navbar-toggler-icon::before {
+            top: -6px;
+            /* Garis atas */
+        }
+
+        .navbar-toggler .navbar-toggler-icon::after {
+            top: 6px;
+            /* Garis bawah */
+        }
+
+        /* Toggler saat aktif */
+        .navbar-toggler.collapsed .navbar-toggler-icon {
+            background-color: transparent;
+            /* Hilangkan garis tengah saat dibuka */
+        }
+
+        .navbar-toggler.collapsed .navbar-toggler-icon::before {
+            top: 0;
+            transform: rotate(45deg);
+            /* Garis atas berubah menjadi diagonal */
+        }
+
+        .navbar-toggler.collapsed .navbar-toggler-icon::after {
+            top: 0;
+            transform: rotate(-45deg);
+            /* Garis bawah berubah menjadi diagonal */
         }
 
         @media (max-width: 576px) {
@@ -78,6 +147,10 @@
                 max-height: 30px;
                 /* Even smaller logo on very small screens */
             }
+        }
+
+        .navbar {
+            background-color: #ffffff !important;
         }
 
         .ml-auto .dropdown-menu {
@@ -111,15 +184,23 @@
             font-weight: 700;
         }
 
-        .navbar {
-            background-color: #ffffff !important;
-        }
-
         .section {
             padding: 40px;
-            color: rgb(2, 2, 2);
+            color: rgb(0, 0, 0);
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
             background-color: #ffffff;
+        }
+
+        #about {
+            background-color: #6d94ff !important;
+            color: #fff !important;
+        }
+
+        .about-image {
+            /* -webkit-filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 rgb(65, 65, 65));
+
+            filter:
+                drop-shadow(20px 0px 0px white) drop-shadow(-20px 0px 0px white) drop-shadow(0px 20px 0px white) drop-shadow(0px -80px 0px white); */
         }
 
         .footer {
@@ -366,15 +447,23 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light my-0 py-4">
+    <nav class="navbar sticky-top navbar-expand-lg bg-light my-0 py-4">
         <div class="container">
-            <div class="col-sm-3 col-md-3 col-lg-3">
-                <a class="navbar-brand" href="#">
-                    <img class="navbar-logo" src="{{ asset('assets/img') }}/logo.png" alt="">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-6 col-lg-6">
-                <ul class="navbar-nav d-flex justify-content-center">
+            <!-- Navbar Toggler (warna hitam) -->
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Logo Navbar (posisi di tengah pada mobile) -->
+            <a class="navbar-brand mx-auto" href="#">
+                <img class="navbar-logo" src="{{ asset('assets/img') }}/logo.png" alt="Logo" style="width: 165px;">
+            </a>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto">
                     <li class="nav-item pr-3">
                         <a class="nav-link" href="#">ABOUT</a>
                     </li>
@@ -395,15 +484,19 @@
                         <a class="nav-link" href="#">SERVICES</a>
                     </li>
                 </ul>
-            </div>
-            <div class="col-sm-3 col-md-3 col-lg-3 d-flex justify-content-end">
+
+                <!-- Contact Button -->
                 <form class="form-inline">
                     <button class="btn btn-info" type="submit"
-                        style="background-color:rgb(24, 85, 155);font-weight:bold;">CONTACT</button>
+                        style="background-color:rgb(24, 85, 155); font-weight:bold;">
+                        CONTACT
+                    </button>
                 </form>
             </div>
         </div>
     </nav>
+
+
     <header id="header" class="hero">
         <div class="container">
             <h1 class="header">FULL-EXTRACTED ASPHALT BUTON</h1>
@@ -444,8 +537,8 @@
                         </p>
                     </div>
                     <div class="col-lg-6 d-flex justify-content-end">
-                        <img src="{{ asset('assets/img') }}/tentang1.jpg" alt="About Us" class="img-fluid"
-                            width="450px">
+                        <img src="{{ asset('assets/img') }}/tentang1.jpg" alt="About Us" id="about-image"
+                            class="img-fluid about-image" width="450px">
                     </div>
                 </div>
             </div>
