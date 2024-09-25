@@ -28,7 +28,7 @@
 
         .hero {
             position: relative;
-            background: url('assets/img/hero-1.jpg') no-repeat center center;
+            background: url('assets/img/hero-1.JPG') no-repeat center center;
             background-size: cover;
             background-repeat: no-repeat;
             background-position: 30% 70%;
@@ -476,12 +476,13 @@
                             PRODUCTS
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item py-3" href="#">PURE ASPHALT</a>
-                            <a class="dropdown-item py-3" href="#">LIQUID ASPHALT</a>
+                            <a class="dropdown-item py-3" href="#">Fully Extracted PG-70</a>
+                            <a class="dropdown-item py-3" href="#">Fully Extracted PG-76</a>
+                            <a class="dropdown-item py-3" href="#">Fully Extracted PG-82</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">SERVICES</a>
+                        <a class="nav-link" href="#">PROJECTS</a>
                     </li>
                 </ul>
 
@@ -499,7 +500,7 @@
 
     <header id="header" class="hero">
         <div class="container">
-            <h1 class="header">FULL-EXTRACTED ASPHALT BUTON</h1>
+            <h1 class="header">FULLY-EXTRACTED ASPHALT BUTON</h1>
             <p class="header-text">
                 Your excelent choice for Strong Resource
             </p>
@@ -548,14 +549,17 @@
         <!-- Services Section -->
         <section id="services" class="section">
             <div class="container">
-                <h2 class="text-center">Our Services</h2>
+                <h2 class="text-center">Products</h2>
+                {{-- <p class="text-center">
+                    We do Partnership with others company, doing projects together.
+                </p> --}}
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card">
                             <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Service 1">
                             <div class="card-body">
-                                <h5 class="card-title">Service 1</h5>
-                                <p class="card-text">Description of Service 1.</p>
+                                <h5 class="card-title">Fully-Extracted PG-70</h5>
+                                <p class="card-text"></p>
                             </div>
                         </div>
                     </div>
@@ -563,8 +567,8 @@
                         <div class="card">
                             <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Service 2">
                             <div class="card-body">
-                                <h5 class="card-title">Service 2</h5>
-                                <p class="card-text">Description of Service 2.</p>
+                                <h5 class="card-title">Fully-Extracted PG-76</h5>
+                                <p class="card-text"></p>
                             </div>
                         </div>
                     </div>
@@ -572,8 +576,8 @@
                         <div class="card">
                             <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Service 3">
                             <div class="card-body">
-                                <h5 class="card-title">Service 3</h5>
-                                <p class="card-text">Description of Service 3.</p>
+                                <h5 class="card-title">Fully-Extracted PG-82</h5>
+                                <p class="card-text"></p>
                             </div>
                         </div>
                     </div>
@@ -791,12 +795,11 @@
                 </div>
 
                 <div class="col-lg-2 col-6 footer-links">
-                    <h4 class="text-left">Our Services</h4>
+                    <h4 class="text-left">Products</h4>
                     <ul>
-                        <li><a href="#">Aspal Murni</a></li>
-                        <li><a href="#">Packing Aspal</a></li>
-                        <li><a href="#">Aspal Industri</a></li>
-                        <li><a href="#">Olahan hasil Aspal</a></li>
+                        <li><a href="#">Fully-Extracted PG-70</a></li>
+                        <li><a href="#">Fully-Extracted PG-76</a></li>
+                        <li><a href="#">Fully-Extracted PG-82</a></li>
                     </ul>
                 </div>
 
