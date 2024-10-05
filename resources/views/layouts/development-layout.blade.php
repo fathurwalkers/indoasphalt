@@ -8,442 +8,8 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <title>INDOASPHALT.com</title>
-
-    <style>
-        html {
-            text-rendering: optimizeLegibility;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        .nav-link,
-        .navbar,
-        .navbar-brand {
-            font-family: 'Segoe UI', Tahoma, Verdana, sans-serif !important;
-            antialiased -webkit-font-smoothing: antialiased !important;
-            -moz-osx-font-smoothing: grayscale !important;
-            subpixel-antialiased -webkit-font-smoothing: auto !important;
-            -moz-osx-font-smoothing: auto !important;
-        }
-
-        .hero {
-            position: relative;
-            background: url('assets/img/hero-1.JPG') no-repeat center center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: 30% 70%;
-            color: #fff;
-            padding: 160px 0;
-            text-align: center;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            /* Black with 50% opacity */
-            z-index: 1;
-        }
-
-        .hero .container {
-            position: relative;
-            z-index: 2;
-            /* Ensure text is above the overlay */
-        }
-
-        .hero h1,
-        .hero p {
-            color: #fff;
-            /* Ensure text color is white for visibility */
-        }
-
-        .navbar-logo {
-            max-height: 50px;
-            width: auto;
-        }
-
-        @media (max-width: 768px) {
-            .navbar-brand {
-                position: absolute;
-                left: 50%;
-                transform: translateX(-50%);
-            }
-
-            .navbar-toggler {
-                z-index: 1;
-                /* Supaya toggler tidak tertutup elemen lain */
-            }
-
-            .navbar-logo {
-                width: 120px;
-                /* Ukuran logo lebih kecil di mobile */
-            }
-        }
-
-        /* Menghilangkan background penuh dari toggler */
-        .navbar-toggler {
-            border: none;
-            /* Hilangkan border */
-            padding: 0.25rem 0.5rem;
-            /* Atur padding agar lebih rapih */
-        }
-
-        /* Custom untuk icon toggler menjadi hamburger style */
-        .navbar-toggler .navbar-toggler-icon {
-            display: inline-block;
-            width: 24px;
-            height: 2px;
-            background-color: black;
-            position: relative;
-            transition: all 0.3s ease-in-out;
-        }
-
-        /* Membuat tiga garis untuk hamburger */
-        .navbar-toggler .navbar-toggler-icon::before,
-        .navbar-toggler .navbar-toggler-icon::after {
-            content: '';
-            width: 24px;
-            height: 2px;
-            background-color: black;
-            position: absolute;
-            left: 0;
-            transition: all 0.3s ease-in-out;
-        }
-
-        .navbar-toggler .navbar-toggler-icon::before {
-            top: -6px;
-            /* Garis atas */
-        }
-
-        .navbar-toggler .navbar-toggler-icon::after {
-            top: 6px;
-            /* Garis bawah */
-        }
-
-        /* Toggler saat aktif */
-        .navbar-toggler.collapsed .navbar-toggler-icon {
-            background-color: transparent;
-            /* Hilangkan garis tengah saat dibuka */
-        }
-
-        .navbar-toggler.collapsed .navbar-toggler-icon::before {
-            top: 0;
-            transform: rotate(45deg);
-            /* Garis atas berubah menjadi diagonal */
-        }
-
-        .navbar-toggler.collapsed .navbar-toggler-icon::after {
-            top: 0;
-            transform: rotate(-45deg);
-            /* Garis bawah berubah menjadi diagonal */
-        }
-
-        @media (max-width: 576px) {
-            .navbar-logo {
-                max-height: 30px;
-                /* Even smaller logo on very small screens */
-            }
-        }
-
-        .navbar {
-            background-color: #ffffff !important;
-        }
-
-        .ml-auto .dropdown-menu {
-            left: auto !important;
-            right: 0px !important;
-        }
-
-        .navbar-brand,
-        .nav-link,
-        .dropdown-item {
-            color: rgb(11, 12, 12) !important;
-            font-weight: bold;
-        }
-
-        .navbar-brand:hover,
-        .nav-link:hover,
-        .dropdown-item:hover {
-            color: rgb(131, 131, 131) !important;
-            font-weight: bold;
-        }
-
-        .header-text {
-            color: #ffffff !important;
-            /* text-shadow: -1px -1px 1px white, 1px -1px 1px white, -1px 1px 1px white, 1px 1px 1px white !important; */
-            font-weight: 500;
-        }
-
-        .header {
-            color: #ffffff !important;
-            text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black !important;
-            font-weight: 700;
-        }
-
-        .section {
-            padding: 40px;
-            color: rgb(0, 0, 0);
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
-            background-color: #ffffff;
-        }
-
-        #about {
-            background-color: #08203f !important;
-            color: #fff !important;
-        }
-
-        .about-image {
-            /* -webkit-filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 rgb(65, 65, 65));
-
-            filter:
-                drop-shadow(20px 0px 0px white) drop-shadow(-20px 0px 0px white) drop-shadow(0px 20px 0px white) drop-shadow(0px -80px 0px white); */
-        }
-
-        .footer {
-            background-color: #f8f9fa;
-            padding: 30px 0;
-            text-align: center;
-        }
-
-        /*--------------------------------------------------------------
-        # Call to Action Section
-        --------------------------------------------------------------*/
-        .call-to-action {
-            padding: 80px 0;
-            position: relative;
-            clip-path: inset(0);
-        }
-
-        .call-to-action img {
-            position: fixed;
-            top: 0;
-            left: 0;
-            display: block;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            z-index: 1;
-        }
-
-        .call-to-action:before {
-            content: "";
-            background: color-mix(in srgb, var(--background-color), transparent 20%);
-            position: absolute;
-            inset: 0;
-            z-index: 2;
-        }
-
-        .call-to-action .container {
-            position: relative;
-            z-index: 3;
-        }
-
-        .call-to-action h3 {
-            font-size: 28px;
-            font-weight: 700;
-            color: #fff;
-        }
-
-        .call-to-action p {
-            color: #fff;
-        }
-
-        .call-to-action .cta-btn {
-            font-family: var(--heading-font);
-            font-weight: 500;
-            font-size: 16px;
-            letter-spacing: 1px;
-            display: inline-block;
-            padding: 12px 40px;
-            border-radius: 5px;
-            transition: 0.5s;
-            margin: 10px;
-            border: 2px solid var(--contrast-color);
-            color: var(--contrast-color);
-        }
-
-        .call-to-action .cta-btn:hover {
-            background: var(--accent-color);
-            border: 2px solid var(--accent-color);
-        }
-
-        /*--------------------------------------------------------------
-        # Features Section
-        --------------------------------------------------------------*/
-        .features .features-item {
-            color: color-mix(in srgb, var(--default-color), transparent 20%);
-        }
-
-        .features .features-item+.features-item {
-            margin-top: 50px;
-        }
-
-        @media (max-width: 640px) {
-            .features .features-item+.features-item {
-                margin-top: 50px;
-            }
-        }
-
-        .features .features-item h3 {
-            font-weight: 700;
-            font-size: 26px;
-        }
-
-        .features .features-item ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .features .features-item ul li {
-            padding-bottom: 10px;
-            display: flex;
-            align-items: center;
-        }
-
-        .features .features-item ul li:last-child {
-            padding-bottom: 0;
-        }
-
-        .features .features-item ul i {
-            font-size: 20px;
-            padding-right: 4px;
-            color: var(--accent-color);
-        }
-
-        .features .features-item p:last-child {
-            margin-bottom: 0;
-        }
-
-        /*--------------------------------------------------------------
-        # Global Footer
-        --------------------------------------------------------------*/
-        .footer {
-            color: #fff;
-            background-color: #08203f;
-            font-size: 14px;
-            position: relative;
-        }
-
-        .footer .footer-top {
-            padding-top: 15px;
-            border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-        }
-
-        .footer .footer-about .logo {
-            line-height: 1;
-            margin-bottom: 15px;
-        }
-
-        .footer .footer-about .logo img {
-            max-height: 40px;
-            margin-right: 6px;
-            -webkit-filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 rgb(65, 65, 65));
-
-            filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 rgb(82, 82, 82));
-        }
-
-        .footer .footer-about .logo span {
-            color: var(--heading-color);
-            font-size: 30px;
-            font-weight: 700;
-            letter-spacing: 1px;
-            font-family: var(--heading-font);
-        }
-
-        .footer .footer-about p {
-            font-size: 14px;
-            font-family: var(--heading-font);
-        }
-
-        .footer .social-links a {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
-            font-size: 16px;
-            color: color-mix(in srgb, var(--default-color), transparent 50%);
-            margin-right: 10px;
-            transition: 0.3s;
-        }
-
-        .footer .social-links a:hover {
-            color: var(--default-color);
-            border-color: var(--default-color);
-        }
-
-        .footer h4 {
-            font-size: 16px;
-            font-weight: bold;
-            position: relative;
-            padding-bottom: 12px;
-        }
-
-        .footer .footer-links {
-            margin-bottom: 20px;
-        }
-
-        .footer .footer-links ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .footer .footer-links ul i {
-            padding-right: 2px;
-            font-size: 12px;
-            line-height: 0;
-        }
-
-        .footer .footer-links ul li {
-            padding: 10px 0;
-            display: flex;
-            align-items: center;
-        }
-
-        .footer .footer-links ul li:first-child {
-            padding-top: 0;
-        }
-
-        .footer .footer-links ul a {
-            color: color-mix(in srgb, var(--default-color), transparent 40%);
-            display: inline-block;
-            line-height: 1;
-        }
-
-        .footer .footer-links ul a:hover {
-            color: var(--default-color);
-        }
-
-        .footer .footer-contact p {
-            margin-bottom: 5px;
-        }
-
-        .footer .copyright {
-            padding-top: 15px;
-            padding-bottom: 10px;
-            border-top: 1px solid color-mix(in srgb, var(--heading-color), transparent 90%);
-        }
-
-        .footer .copyright p {
-            margin-bottom: 0;
-        }
-
-        .footer .credits {
-            margin-top: 4px;
-            font-size: 13px;
-        }
-
-        .footer .credits a {
-            color: var(--default-color);
-        }
-    </style>
+    <title>INDOASPHALT - Fully Extracted Asphalt Buton</title>
+    <link rel="stylesheet" href="{{ asset('assets') }}/dev.css">
 </head>
 
 <body>
@@ -556,7 +122,8 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card">
-                            <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Service 1">
+                            <img src="{{ asset('assets/img/') }}/pg70.jpeg" class="card-img-top products-image"
+                                alt="Service 1" width="250px">
                             <div class="card-body">
                                 <h5 class="card-title">Fully-Extracted PG-70</h5>
                                 <p class="card-text"></p>
@@ -565,7 +132,8 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card">
-                            <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Service 2">
+                            <img src="{{ asset('assets/img/') }}/pg76.jpeg" class="card-img-top products-image"
+                                alt="Service 2">
                             <div class="card-body">
                                 <h5 class="card-title">Fully-Extracted PG-76</h5>
                                 <p class="card-text"></p>
@@ -574,7 +142,8 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card">
-                            <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Service 3">
+                            <img src="{{ asset('assets/img/') }}/pg82.jpeg" class="card-img-top products-image"
+                                alt="Service 3">
                             <div class="card-body">
                                 <h5 class="card-title">Fully-Extracted PG-82</h5>
                                 <p class="card-text"></p>
@@ -607,6 +176,58 @@
 
         </section>
         <!-- End Call to Action Section -->
+
+        <hr class="mt-4 my-2" />
+
+        <section id="features" class="features section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 mx-auto d-flex justify-content-center">
+                        <h2>Products Specification</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 mx-auto d-flex justify-content-center">
+                        <p style="font-weight: 500">
+                            Lab Testing (LP - 1409 - IDN)
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="row d-flex justify-content-center mt-0 pt-0">
+                <div class="col-sm-6 col-md-6 col-lg-6 mx-auto d-flex justify-content-center">
+                    <div class="row d-flex justify-content-center">
+                        <h5 class="text-center">
+                            Testing PG-70
+                        </h5>
+                        <br>
+                        <div class="col-sm-12 col-md-12 col-lg-12 mx-auto d-flex justify-content-center mb-2">
+                            <img class="img pickimg img-fluid mx-auto d-flex justify-content-center"
+                                src="https://ecoasphalt.id/assets/bahan/PT.%20Kartika%20Prima%20Abadi/pangko1.png"
+                                alt="" width="750px">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 mx-auto d-flex justify-content-center">
+                    <div class="row d-flex justify-content-center">
+                        <h5 class="text-center">
+                            Testing PG-76
+                        </h5>
+                        <br>
+                        <div class="col-sm-12 col-md-12 col-lg-12 mx-auto d-flex justify-content-center">
+                            <img class="img pickimg img-fluid mx-auto d-flex justify-content-center"
+                                src="https://ecoasphalt.id/assets/bahan/PT.%20Kartika%20Prima%20Abadi/pangko2.png"
+                                alt="" width="750px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="mt-4 my-2" />
 
         <section id="features" class="features section">
             <!-- Section Title -->

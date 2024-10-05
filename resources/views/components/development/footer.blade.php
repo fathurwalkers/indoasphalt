@@ -6,7 +6,7 @@
                     {{-- <span class="sitename">INDOASPHALT</span> --}}
                     <img src="{{ asset('assets/img') }}/logo.png" alt="" class="sitename">
                 </a>
-                <p>
+                <p class="text-start text-wrap">
                     Indoasphalt is a trusted company engaged in the processing of raw natural asphalt into
                     high-quality
                     liquid asphalt. With modern packaging technology, efficient logistics services and a commitment
