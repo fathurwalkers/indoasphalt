@@ -23,22 +23,20 @@
             </div>
 
             <div class="col-lg-2 col-6 footer-links">
-                <h4 class="text-left">Useful Links</h4>
+                <h4 class="text-left">Navigation</h4>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#features">Featured</a></li>
+                    <li><a href="{{ route('home') }}">Home</a></li>
                     <li><a href="#about">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#footer">Contacs</a></li>
+                    <li><a href="{{ route('projects') }}"></a>Projects</li>
                 </ul>
             </div>
 
             <div class="col-lg-2 col-6 footer-links">
                 <h4 class="text-left">Products</h4>
                 <ul>
-                    <li><a href="#">Fully-Extracted PG-70</a></li>
-                    <li><a href="#">Fully-Extracted PG-76</a></li>
-                    <li><a href="#">Fully-Extracted PG-82</a></li>
+                    @foreach ($produk as $props)
+                        <li><a href="{{ route('get-produk', $props->produk_nama) }}">Fully-Extracted {{ $props->produk_nama }}</a></li>
+                    @endforeach
                 </ul>
             </div>
 

@@ -8,7 +8,7 @@
             </button>
 
             <!-- Logo Navbar (posisi di tengah pada mobile) -->
-            <a class="navbar-brand mx-auto" href="#">
+            <a class="navbar-brand mx-auto" href="{{ route('home') }}">
                 <img class="navbar-logo" src="{{ asset('assets/img') }}/logo.png" alt="Logo" style="width: 165px;">
             </a>
 
@@ -35,7 +35,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PROJECTS</a>
+                        <a class="nav-link" href="{{ route('projects') }}">PROJECTS</a>
                     </li>
                 </ul>
 

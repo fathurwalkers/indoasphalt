@@ -12,6 +12,11 @@ class HomeController extends Controller
         return view('home.development');
     }
 
+    public function projects()
+    {
+        return view('home.gallery');
+    }
+
     public function getproduk($produk_nama)
     {
         $produk = Produk::where('produk_nama', $produk_nama)->first();
