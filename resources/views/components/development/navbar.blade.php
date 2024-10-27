@@ -16,10 +16,10 @@
             <div class="collapse navbar-collapse" id="navbarContent">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item pr-3">
-                        <a class="nav-link" href="#">ABOUT</a>
+                        <a class="nav-link" href="#about">ABOUT</a>
                     </li>
                     <li class="nav-item pr-3">
-                        <a class="nav-link" href="#">FEATURES</a>
+                        <a class="nav-link" href="#features">FEATURES</a>
                     </li>
                     <li class="nav-item pr-3 dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
@@ -34,9 +34,9 @@
                             @endforeach
                         </div>
                     </li>
-                    <li class="nav-item">
+                    {{-- <li class="nav-item">
                         <a class="nav-link" href="{{ route('projects') }}">PROJECTS</a>
-                    </li>
+                    </li> --}}
                 </ul>
 
                 <!-- Contact Button -->
