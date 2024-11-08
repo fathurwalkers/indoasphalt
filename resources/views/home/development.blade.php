@@ -175,7 +175,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 mx-auto d-flex justify-content-center">
                     <p style="font-weight: 500">
-                        Lab Testing (LP - 1409 - IDN)
+                        (LP - 1409 - IDN)
                     </p>
                 </div>
             </div>
@@ -186,7 +186,7 @@
             <div class="col-sm-6 col-md-6 col-lg-6 mx-auto d-flex justify-content-center">
                 <div class="row d-flex justify-content-center">
                     <h5 class="text-center">
-                        Testing PG-70
+                        PG-70
                     </h5>
                     <br>
                     <div class="col-sm-12 col-md-12 col-lg-12 mx-auto d-flex justify-content-center mb-2">
@@ -199,7 +199,7 @@
             <div class="col-sm-6 col-md-6 col-lg-6 mx-auto d-flex justify-content-center">
                 <div class="row d-flex justify-content-center">
                     <h5 class="text-center">
-                        Testing PG-76
+                        PG-76
                     </h5>
                     <br>
                     <div class="col-sm-12 col-md-12 col-lg-12 mx-auto d-flex justify-content-center">
@@ -248,36 +248,52 @@
                     </p>
                     <ul>
                         <li>
-                            <span>
-                                &#8594; Durable: Our products is strong and durable, facing heavy loads and bad
-                                weather
-                                without
-                                being easily damaged.
-                            </span>
+                            <div class="row">
+                                <div class="col-sm-1 col-md-1 col-lg-1">
+                                    &nbsp; &#8594;
+                                </div>
+                                <div class="col-sm-11 col-md-11 col-lg-11">
+                                    <span>
+                                        Durable: Our products is strong and durable, facing heavy loads and bad weather without being easily damaged.
+                                    </span>
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            <span>
-                                &#8594; Eco-Friendly: Our asphalt is environmentally friendly, with a production
-                                process
-                                that reduces
-                                pollution and impact on the environment.
-                            </span>
+                            <div class="row">
+                                <div class="col-sm-1 col-md-1 col-lg-1">
+                                    &nbsp; &#8594;
+                                </div>
+                                <div class="col-sm-11 col-md-11 col-lg-11">
+                                    <span>
+                                        Eco-Friendly: Our asphalt is environmentally friendly, with a production process that reduces pollution and impact on the environment.
+                                    </span>
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            <span>
-                                &#8594; Long-Lasting: With high durability, our asphalt lasts longer, reducing the
-                                need for
-                                repairs and
-                                replacements.
-                            </span>
+                            <div class="row">
+                                <div class="col-sm-1 col-md-1 col-lg-1">
+                                    &nbsp; &#8594;
+                                </div>
+                                <div class="col-sm-11 col-md-11 col-lg-11">
+                                    <span>
+                                        Long-Lasting: With high durability, our asphalt lasts longer, reducing the need for repairs and replacements.
+                                    </span>
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            <span>
-                                &#8594; Easy Mixing: Our asphalt pureness is easy to mix and apply, making the work
-                                process
-                                faster and
-                                more efficient.
-                            </span>
+                            <div class="row">
+                                <div class="col-sm-1 col-md-1 col-lg-1">
+                                    &nbsp; &#8594;
+                                </div>
+                                <div class="col-sm-11 col-md-11 col-lg-11">
+                                    <span>
+                                        Easy Mixing: Our asphalt pureness is easy to mix and apply, making the work process faster and more efficient.
+                                    </span>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -318,22 +334,22 @@
                     <ul>
                         <li>
                             <span>
-                                &#8594; Contact us for consultation and price quote.
+                                &#8594; &nbsp; Contact us for consultation and price quote.
                             </span>
                         </li>
                         <li>
                             <span>
-                                &#8594; Make an order contract agreement.
+                                &#8594; &nbsp; Make an order contract agreement.
                             </span>
                         </li>
                         <li>
                             <span>
-                                &#8594; Processing and packing process according to your project needs.
+                                &#8594; &nbsp; Processing and packing process according to your project needs.
                             </span>
                         </li>
                         <li>
                             <span>
-                                &#8594; On-time asphalt delivery to your project location.
+                                &#8594; &nbsp; On-time asphalt delivery to your project location.
                             </span>
                         </li>
                     </ul>

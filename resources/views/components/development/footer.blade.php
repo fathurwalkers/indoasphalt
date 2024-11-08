@@ -48,6 +48,7 @@
                 <p class="text-left">Soho Capital Lt.39 Unit 06, Jl.Let.Jend S.Parman KV 28</p>
                 <p class="text-left">Grogol Petamburan, Jakarta Barat</p>
                 <p class="text-left" class="mt-2"><strong>Phone:</strong> <span>021-30003615</span></p>
+                <p class="text-left"><strong>Email:</strong> <span>sales@indoasphalt.com</span></p>
                 <p class="text-left"><strong>Email:</strong> <span>kpa@indoasphalt.com</span></p>
             </div>
 

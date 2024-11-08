@@ -328,9 +328,9 @@ html {
 .footer .footer-about .logo img {
     max-height: 40px;
     margin-right: 6px;
-    -webkit-filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 rgb(65, 65, 65));
+    /* -webkit-filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 rgb(65, 65, 65));
 
-    filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 rgb(82, 82, 82));
+    filter: drop-shadow(2px 2px 0 white) drop-shadow(-2px 2px 0 white) drop-shadow(2px -2px 0 white) drop-shadow(-2px -2px 0 rgb(82, 82, 82)); */
 }
 
 .footer .footer-about .logo span {
