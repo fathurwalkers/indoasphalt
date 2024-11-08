@@ -48,7 +48,7 @@
     <!-- Services Section -->
     <section id="services" class="section">
         <div class="container">
-            <h2 class="text-center">Products</h2>
+            <h2 class="text-center">Insight</h2>
             <p class="text-center">
                 We are manages products made from authentic Buton Asphalt, renowned for its high level of extraction purity.
             </p>
@@ -135,7 +135,6 @@
                 </div><!-- End Card Item -->
 
             </div>
-
 
         </div>
     </section>
