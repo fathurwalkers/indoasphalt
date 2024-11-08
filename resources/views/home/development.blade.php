@@ -1,5 +1,21 @@
 @extends('layouts.development-layout')
 
+
+@push('css')
+<style>
+    .hero {
+        position: relative;
+        background: url('https://indoasphalt.com/public/assets/img/hero-1.jpg') no-repeat center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #fff;
+        padding: 160px 0;
+        text-align: center;
+    }
+</style>
+@endpush
+
 @section('header-content')
     <h1 class="header">FULLY-EXTRACTED ASPHALT BUTON</h1>
     <p class="header-text">
@@ -322,7 +338,7 @@
 
             <div class="row gy-3 align-items-center features-item">
                 <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
-                    <img src="{{ asset('assets/img') }}/features-3.jpg" class="img-fluid" alt="">
+                    <img src="{{ asset('assets/img') }}/features-3.JPG" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-7" data-aos="fade-up">
                     <h3>Easy Ordering Process</h3>
