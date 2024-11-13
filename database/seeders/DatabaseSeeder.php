@@ -14,60 +14,60 @@ class DatabaseSeeder extends Seeder
             [
                 'produk_nama' => 'PG-70',
                 'produk_keterangan' => '
-                    <h2>Deskripsi Produk</h2>
-                    <p>Aspal Buton PG 70 adalah aspal modifikasi berkualitas tinggi yang dihasilkan dari bahan baku alami dengan kandungan mineral yang kaya. Dikenal karena kinerjanya yang optimal, PG 70 dirancang untuk memberikan daya tahan luar biasa pada berbagai proyek konstruksi jalan, baik itu jalan raya maupun jalan perkotaan.</p>
-                    <p>Produk ini tidak hanya tahan terhadap beban lalu lintas yang berat, tetapi juga memiliki ketahanan yang sangat baik terhadap cuaca ekstrem, menjadikannya pilihan ideal untuk semua kondisi.</p>
-                    <h2>Keunggulan PG 70</h2>
+                    <h2>Product Description</h2>
+                    <p>Buton Asphalt PG 70 is a high-quality modified asphalt produced from natural raw materials with a rich mineral content. Known for its optimal performance, PG 70 is designed to provide exceptional durability for various road construction projects, including highways and urban roads.</p>
+                    <p>This product is not only resilient under heavy traffic loads but also has excellent resistance to extreme weather, making it an ideal choice for all conditions.</p>
+                    <h2>Advantages of PG 70</h2>
                     <ul>
-                        <li><strong>Ketahanan Tinggi:</strong> Memperpanjang umur jalan dengan mengurangi deformasi dan keretakan.</li>
-                        <li><strong>Ramah Lingkungan:</strong> Diproduksi dengan proses yang mempertimbangkan keberlanjutan.</li>
-                        <li><strong>Kualitas Terjamin:</strong> Melalui pengujian laboratorium yang ketat.</li>
-                        <li><strong>Biaya Efisien:</strong> Mengurangi biaya jangka panjang dengan kebutuhan perawatan yang rendah.</li>
+                        <li><strong>High Durability : </strong> Extends road life by reducing deformation and cracking.</li>
+                        <li><strong>Eco-Friendly :</strong> Produced with sustainability in mind.</li>
+                        <li><strong>Guaranteed Quality :</strong> Undergoes rigorous laboratory testing. </li>
+                        <li><strong>Cost-Efficient :</strong> Reduces long-term costs due to minimal maintenance needs.</li>
                     </ul>
-                    <h2>Kenapa Memilih PG 70?</h2>
-                    <p>Dengan Asphalt Buton PG 70, Anda tidak hanya mendapatkan produk berkualitas, tetapi juga solusi cerdas untuk kebutuhan pembangunan yang lebih tahan lama dan efisien. Pilih PG 70 untuk memastikan proyek Anda memiliki daya tahan dan kinerja terbaik, menjadikannya investasi yang tepat untuk masa depan.</p>
+                    <h2>Why Choose PG 70?</h2>
+                    <p>With Buton Asphalt PG 70, you’re not only getting a high-quality product but also a smart solution for more durable and efficient construction needs. Choose PG 70 to ensure your project has the best durability and performance, making it a solid investment for the future.</p>
                 ',
-                'produk_judul' => 'Aspal Buton Tipe PG-70',
+                'produk_judul' => 'Buton Asphalt Type PG-70',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
                 'produk_nama' => 'PG-76',
                 'produk_keterangan' => '
-                    <h2>Deskripsi Produk</h2>
-                    <p>Aspal Buton PG-76 adalah aspal modifikasi yang cocok untuk digunakan di jalan raya dengan beban berat dan lalu lintas yang padat. Dikenal dengan ketahanannya yang tinggi, PG-76 menawarkan performa optimal di berbagai kondisi cuaca.</p>
-                    <p>Produk ini memiliki ketahanan yang lebih baik terhadap suhu tinggi, sehingga mencegah terjadinya rutting (jejak roda) pada jalan raya.</p>
-                    <h2>Keunggulan PG 76</h2>
+                    <h2>Product Description</h2>
+                    <p>Buton Asphalt PG-76 is a modified asphalt suitable for use on highways with heavy loads and dense traffic. Known for its high durability, PG-76 offers optimal performance across various weather conditions.</p>
+                    <p>This product has superior resistance to high temperatures, preventing rutting (wheel track deformation) on highways. </p>
+                    <h2>Advantages of 76</h2>
                     <ul>
-                        <li><strong>Performa Unggul:</strong> Ideal untuk proyek dengan lalu lintas padat.</li>
-                        <li><strong>Ketahanan Suhu:</strong> Mampu bertahan pada suhu tinggi tanpa mengalami kerusakan.</li>
-                        <li><strong>Ramah Lingkungan:</strong> Diproduksi dengan proses yang memperhatikan keberlanjutan.</li>
+                        <li><strong>Superior Performance :</strong> Ideal for projects with heavy traffic. </li>
+                        <li><strong>Temperature Resistance :</strong> Withstands high temperatures without damage. </li>
+                        <li><strong>Eco-Friendly :</strong> Produced through a sustainable process. </li>
                     </ul>
-                    <h2>Kenapa Memilih PG 76?</h2>
-                    <p>PG-76 adalah pilihan tepat untuk proyek-proyek yang memerlukan daya tahan tinggi dan performa optimal, memberikan nilai tambah bagi investasi infrastruktur Anda.</p>
+                    <h2>Why Choose PG 76?</h2>
+                    <p>PG-76 is the right choice for projects that require high durability and optimal performance, adding value to your infrastructure investment. </p>
                 ',
-                'produk_judul' => 'Aspal Modifikasi Buton PG-76',
+                'produk_judul' => 'Modified Buton Asphalt Type PG-76',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
-            [
-                'produk_nama' => 'PG-82',
-                'produk_keterangan' => '
-                    <h2>Deskripsi Produk</h2>
-                    <p>Aspal Buton PG-82 adalah tipe aspal dengan spesifikasi tertinggi yang dirancang untuk kondisi ekstrim. Ideal digunakan di jalan yang sering mengalami suhu ekstrem dan lalu lintas yang sangat berat, PG-82 menawarkan performa optimal dan durabilitas yang sangat tinggi.</p>
-                    <h2>Keunggulan PG 82</h2>
-                    <ul>
-                        <li><strong>Durabilitas Tinggi:</strong> Mampu bertahan dalam kondisi jalan yang paling keras.</li>
-                        <li><strong>Stabilitas Suhu:</strong> Menjaga kualitas aspal dalam suhu ekstrem.</li>
-                        <li><strong>Performa Luar Biasa:</strong> Menjamin kualitas dan ketahanan untuk proyek besar.</li>
-                    </ul>
-                    <h2>Kenapa Memilih PG 82?</h2>
-                    <p>Dengan PG-82, Anda mendapatkan solusi aspal terbaik untuk kebutuhan konstruksi yang menuntut kualitas dan ketahanan tanpa kompromi. Pilih PG-82 untuk hasil yang maksimal.</p>
-                ',
-                'produk_judul' => 'Aspal Buton PG-82 Kualitas Ekstrim',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ],
+            // [
+            //     'produk_nama' => 'PG-82',
+            //     'produk_keterangan' => '
+            //         <h2>Product Description</h2>
+            //         <p>Buton Asphalt PG-82 is a top-spec asphalt type designed for extreme conditions. Ideal for roads exposed to extreme temperatures and heavy traffic, PG-82 offers optimal performance and exceptional durability. </p>
+            //         <h2>Advantages of PG 82</h2>
+            //         <ul>
+            //             <li><strong>High Durability :</strong> Withstands the harshest road conditions. </li>
+            //             <li><strong>Temperature Stability :</strong> Maintains asphalt quality under extreme temperatures. </li>
+            //             <li><strong>Outstanding Performance :</strong> Ensures quality and resilience for major projects. </li>
+            //         </ul>
+            //         <h2>Why Choose PG 82?</h2>
+            //         <p>With PG-82, you get the best asphalt solution for construction needs that demand uncompromising quality and durability. Choose PG-82 for maximum results. </p>
+            //     ',
+            //     'produk_judul' => 'Buton Asphalt Type PG-82 Extreme Quality',
+            //     'created_at' => now(),
+            //     'updated_at' => now(),
+            // ],
         ]);
     }
 }

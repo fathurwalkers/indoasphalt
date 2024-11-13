@@ -6,6 +6,15 @@
             padding: 50px;
             text-align: start;
         }
+
+        .hero {
+            position: relative;
+            background: url('https://indoasphalt.com/public/assets/img/hero-1.jpg') no-repeat center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 30% 70%;
+            color: #fff;
+        }
     </style>
 @endpush
 
@@ -20,20 +29,17 @@
             {{-- <p class="text-center">
                 We do Partnership with others company, doing projects together.
             </p> --}}
+            <div class="row d-flex justify-content-center mt-0 pt-0 mb-4">
+                <div class="col-sm-12 col-md-12 col-lg-12 mx-auto d-flex justify-content-center">
+                    <img class="img pickimg img-fluid mx-auto d-flex justify-content-center"
+                        src="{{ asset('assets/img') }}/{{ $produk->produk_nama }}-Specifications.PNG" alt=""
+                        width="750px">
+                </div>
+            </div>
             <div class="row">
-                <div class="col-sm-12s col-md-12s col-lg-12s">
+                <div class="col-sm-12 col-md-12 col-lg-12">
                     {!! $produk->produk_keterangan !!}
                 </div>
-                {{-- <div class="col-sm-6 col-md-6 col-lg-6">
-                        <div class="card">
-                            <img src="{{ asset('assets/img/') }}/pg70.jpeg" class="card-img-top products-image" alt="Service 1"
-                                width="250px">
-                            <div class="card-body">
-                                <h5 class="card-title">Fully-Extracted {{ $produk->produk_nama }}</h5>
-                                <p class="card-text"></p>
-                            </div>
-                        </div>
-                </div> --}}
             </div>
         </div>
     </section>

@@ -168,7 +168,8 @@ html {
 .header {
     color: #ffffff !important;
     text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black, 1px 1px 1px black !important;
-    font-weight: 700;
+    font-weight: 950;
+    font-size: 3rem;
 }
 
 .section {
